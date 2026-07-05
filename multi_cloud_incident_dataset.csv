@@ -1,0 +1,110 @@
+incident_id,date,region,primary_service,incident_type,root_cause_category,control_or_data_plane,duration_minutes,blast_radius,impact_severity,customer_visible,retry_storm,cascading_failure,auto_failover_success,provider
+AZ-2024-08-05,45509,Multiple Regions,Azure Front Door,Availability,Configuration_Error,Data,87,Multi-region,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-07-30,45503,Multiple Regions,Azure Front Door/CDN,Connectivity,Internal_Network_Configuration_Error,Data,478,Multi-region,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-07-19,45492,Global,Virtual Machines,Startup Failure,Software_Defect,Control,1440,Global,Critical,Yes,No,Yes,Partial,Azure
+AZ-2024-07-18,45491,Central US,Azure Storage,Availability,Configuration_Error,Data,1460,Regional,Critical,Yes,Yes,Yes,Yes,Azure
+AZ-2024-07-13,45486,14 Regions,Azure OpenAI,Service Failure,Deployment_Process_Gap,Control,1435,Multi-region,Critical,Yes,Yes,Yes,Yes,Azure
+AZ-2024-07-12,45485,Australia East,Managed Identities,Authentication Failure,Configuration_Error,Control,333,Regional,High,Yes,No,Yes,Yes,Azure
+AZ-2024-04-22,45404,China Regions,DNS,Resolution Failure,Configuration_Error,Control,135,Regional,High,Yes,No,Yes,No,Azure
+AZ-2024-04-19,45401,West US,MySQL/MariaDB,Connectivity,Configuration_Error,Data,184,Regional,High,Yes,No,Yes,No,Azure
+AZ-2024-03-14,45365,South Africa,Network,Connectivity,External_Network_Failure,Data,1500,Regional,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-01-21,45312,Multi-region,Azure Resource Manager,Control Plane Failure,Software_Defect,Control,448,Multi-region,Critical,Yes,Yes,Yes,Yes,Azure
+AZ-2023-09-16,45185,East US,Virtual Machines,Power Failure,Power_Infrastructure_Failure,Data,696,Regional,High,Yes,No,Yes,Yes,Azure
+AZ-2023-08-30,45168,Australia East,Multiple Services,Power/Cooling,Cooling_Infrastructure_Failure,Data,4320,Regional,Critical,Yes,Yes,Yes,Yes,Azure
+AZ-2023-07-06,45113,Global,Azure Monitor,Telemetry Failure,Capacity_Saturation,Control,585,Global,High,Yes,Yes,Yes,Yes,Azure
+AZ-2023-07-05,45112,West Europe,Networking,Fiber Cut,External_Network_Failure,Data,520,Regional,High,Yes,Yes,Yes,Yes,Azure
+AZ-2023-06-16,45093,West Europe,Networking,Packet Loss,Internal_Network_Configuration_Error,Data,291,Regional,High,Yes,Yes,Yes,No,Azure
+AZ-2023-06-09,45086,Global,Azure Portal,DDoS,Security_Attack_DDoS,Control,110,Global,High,Yes,Yes,Yes,Yes,Azure
+AZ-2023-03-23,45008,West Europe,Azure Resource Manager,CPU Saturation,Software_Defect,Control,310,Regional,High,Yes,Yes,Yes,No,Azure
+AZ-2023-03-06,44991,West Europe,Azure Storage,Throttling,Configuration_Error,Data,840,Regional,High,Yes,Yes,Yes,No,Azure
+AZ-2023-08-30-SQL,45168,Australia East,SQL Database,Ring Recovery Delay,Software_Defect,Data,4320,Regional,High,Yes,Yes,Yes,Yes,Azure
+AZ-2023-08-30-Cosmos,45168,Australia East,Cosmos DB,Failover Delay,Deployment_Process_Gap,Data,900,Regional,High,Yes,No,Yes,Yes,Azure
+AZ-2024-07-18-Cosmos,45491,Central US,Cosmos DB,Control Plane Failover,Software_Defect,Control,600,Regional,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-07-18-SQL,45491,Central US,SQL DB,Failover Delay,Software_Defect,Data,900,Regional,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-07-30-DDoS,45503,Europe,DDoS Protection,Routing Congestion,Internal_Network_Configuration_Error,Data,300,Regional,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-08-05-ClientStorm,45509,Global,Azure Front Door,Request Storm,Software_Defect,Data,90,Multi-region,High,Yes,Yes,Yes,Yes,Azure
+AZ-2024-03-14-LineCard,45365,South Africa,WAN Router,Hardware Failure,Hardware_Failure,Data,300,Regional,Medium,Yes,Yes,Yes,No,Azure
+AWS-2026-01,46063,Unknown,CloudFront,Configuration Issue,Configuration_Error,Control Plane,423,Regional,High,Yes,No,No,No,AWS
+AWS-2026-02,46050,Unknown,EC2,Configuration Issue,Configuration_Error,Data Plane,128,Regional,Medium,Yes,No,No,No,AWS
+AWS-2025-03,45958,Unknown,Multiple Services,Software Defect,Software_Defect,Control Plane,441,Multi-region,High,Yes,Yes,Yes,No,AWS
+AWS-2025-04,45950,Unknown,Multiple Services,Software Defect,Software_Defect,Control Plane,942,Multi-region,High,Yes,Yes,Yes,No,AWS
+AWS-2025-05,45926,Unknown,IAM,Software Defect,Software_Defect,Control Plane,33,Regional,Low,Yes,No,No,No,AWS
+AWS-2025-06,45916,Unknown,Glue,Software Defect,Software_Defect,Data Plane,40,Regional,Low,Yes,No,No,No,AWS
+AWS-2025-07,45911,Unknown,EC2,Software Defect,Software_Defect,Data Plane,30,Regional,Low,Yes,No,No,No,AWS
+AWS-2025-08,45908,Unknown,Management Console,Network Incident,Network_Failure,Control Plane,65,Regional,Medium,Yes,No,Yes,No,AWS
+AWS-2025-09,45925,Unknown,SQS,Software Defect,Software_Defect,Data Plane,449,Regional,High,Yes,Yes,Yes,No,AWS
+AWS-2025-10,45896,Unknown,IAM,Configuration Issue,Configuration_Error,Control Plane,14,Regional,Low,Yes,No,No,No,AWS
+AWS-2025-11,45890,Unknown,Internet Connectivity,Network Incident,External_Network_Failure,Data Plane,29,Regional,Low,Yes,No,Yes,No,AWS
+AWS-2025-12,45881,Unknown,EC2,Power Failure,Power_Failure,Data Plane,230,Regional,Medium,Yes,No,Yes,Yes,AWS
+AWS-2025-13,45846,Unknown,Lambda,Software Defect,Software_Defect,Data Plane,298,Regional,Medium,Yes,Yes,Yes,No,AWS
+AWS-2025-14,45840,Unknown,Multiple Services,Configuration Issue,Configuration_Error,Control Plane,60,Regional,Medium,Yes,No,Yes,No,AWS
+AWS-2025-15,45821,Unknown,Athena,Configuration Issue,Configuration_Error,Data Plane,116,Regional,Medium,Yes,No,No,No,AWS
+AWS-2025-16,45819,Unknown,Internet Connectivity,Network Incident,Network_Failure,Data Plane,46,Regional,Low,Yes,No,Yes,No,AWS
+AWS-2025-17,45806,Unknown,Multiple Services,Network Incident,Network_Failure,Control Plane,44,Regional,Low,Yes,No,Yes,No,AWS
+AWS-2025-18,45804,Unknown,EMR,Software Defect,Software_Defect,Data Plane,85,Regional,Medium,Yes,No,No,No,AWS
+AWS-2025-19,45789,Unknown,Bedrock,Software Defect,Software_Defect,Data Plane,34,Regional,Low,Yes,No,No,No,AWS
+AWS-2025-20,45778,Unknown,CloudFront,Configuration Issue,Configuration_Error,Data Plane,188,Regional,Medium,Yes,No,Yes,No,AWS
+AWS-2025-21,45762,Unknown,EC2,Power Failure,Power_Failure,Data Plane,36,Regional,Low,Yes,No,Yes,Yes,AWS
+AWS-2025-22,45755,Unknown,Bedrock,Software Defect,Software_Defect,Data Plane,116,Regional,Medium,Yes,No,No,No,AWS
+AWS-2025-23,45713,Unknown,IAM,Software Defect,Software_Defect,Control Plane,25,Regional,Low,Yes,No,No,No,AWS
+AWS-2025-24,45701,Unknown,Multiple Services,Network Incident,Network_Failure,Control Plane,268,Multi-region,Medium,Yes,Yes,Yes,No,AWS
+AWS-2025-25,45700,Unknown,Bedrock,Configuration Issue,Configuration_Error,Data Plane,33,Regional,Low,Yes,No,No,No,AWS
+AWS-2024-26,45621,Unknown,RDS,Software Defect,Software_Defect,Data Plane,180,Regional,Medium,Yes,No,Yes,No,AWS
+AWS-2024-27,45517,Unknown,S3,Configuration Issue,Configuration_Error,Data Plane,210,Regional,Medium,Yes,No,Yes,No,AWS
+AWS-2024-28,45448,Unknown,CloudWatch,Software Defect,Software_Defect,Control Plane,120,Regional,Medium,Yes,Yes,Yes,No,AWS
+AWS-2024-29,45365,Unknown,EC2,Network Incident,Network_Failure,Data Plane,300,Regional,High,Yes,No,Yes,No,AWS
+AWS-2023-30,45272,Unknown,EBS,Power Failure,Power_Failure,Data Plane,360,Regional,High,Yes,No,Yes,Yes,AWS
+AWS-2023-31,45190,Unknown,Route53,Configuration Issue,Configuration_Error,Control Plane,150,Global,Medium,Yes,Yes,Yes,No,AWS
+AWS-2023-32,45125,Unknown,Lambda,Software Defect,Software_Defect,Data Plane,220,Regional,Medium,Yes,Yes,Yes,No,AWS
+AWS-2023-33,45050,Unknown,S3,Software Defect,Software_Defect,Data Plane,410,Regional,High,Yes,Yes,Yes,No,AWS
+AWS-2023-34,44986,Unknown,IAM,Deployment Issue,Deployment_Process_Gap,Control Plane,95,Regional,Medium,Yes,No,No,No,AWS
+GC-2023-04-25,45041,europe-west4,"Multiple (GCS, KMS, IAM, GKE)",Fire and water intrusion in data center,Hardware_Failure,Data,1440,Regional,High,Yes,No,Yes,Partial,GCP
+GC-2023-08-17,45155,Global,Cloud SQL,Instance creation failures,Configuration_Error,Control,368,Global,Medium,Yes,No,No,No,GCP
+GC-2023-10-17,45216,Unknown,Google Cloud VMware Engine,Network link issues,Internal_Network_Configuration_Error,Data,178,Regional,Medium,Yes,No,Yes,No,GCP
+GC-2023-11-03,45233,Unknown,Cloud SQL for MySQL,Issues with Systems Insights metrics,Software_Defect,Control,242,Regional,Medium,Yes,No,No,No,GCP
+GC-2023-11-07a,45237,us-east4-a,"Google Compute Engine, Persistent Disk, VPC",Issues in zone,Capacity_Saturation,Data,235,Regional,High,Yes,Yes,Yes,Partial,GCP
+GC-2023-11-07b,45237,"us-east7, us-west2, europe-north1",Google Compute Engine,Internal errors for recommendLocations,Software_Defect,Control,117,Multi-region,Medium,Yes,No,No,No,GCP
+GC-2023-11-20,45250,Global,Cloud SQL,Outage impacting multiple products,Software_Defect,Data,278,Regional,High,Yes,Yes,Yes,No,GCP
+GC-2023-11-27,45257,Global,Cloud SQL for MySQL,Multiple-table DMLs not working,Software_Defect,Data,3060,Global,High,Yes,No,Yes,No,GCP
+GC-2023-12-06,45266,Unknown,Google Compute Engine,Reduction in preemption notice window,Configuration_Error,Control,109,Regional,Low,Yes,No,No,Yes,GCP
+GC-2024-02-14,45336,us-west1,"Multiple (Vertex AI, IAM)",Regional metadata store issue,Software_Defect,Control,240,Regional,Medium,Yes,No,Yes,No,GCP
+GC-2024-08-16,45520,Unknown,Chronicle Security,Multiple SIEM operations delayed,Software_Defect,Control,139,Regional,Medium,Yes,No,No,No,GCP
+GC-2024-08-27,45531,europe,Chronicle Security,Slowness in UDM search and rule detections,Software_Defect,Data,6,Multi-region,Low,Yes,No,No,Yes,GCP
+GC-2024-09-18,45553,Unknown,Chronicle Security,Transfer delays for AWS SQS S3 feeds,Configuration_Error,Data,7080,Regional,High,Yes,No,Yes,Partial,GCP
+GC-2024-10-23,45588,europe-west3,Multiple,Power failure and electrical arc in zone,Power_Infrastructure_Failure,Data,459,Regional,High,Yes,No,Yes,Partial,GCP
+GC-2024-11-07,45603,Unknown,Chronicle Security,User Interface issue,Software_Defect,Control,71,Regional,Medium,Yes,No,No,No,GCP
+GC-2025-02-13,45701,europe-west2,Chronicle Security,Issues related to feed-based ingestion,Configuration_Error,Data,566,Regional,Medium,Yes,No,No,No,GCP
+GC-2025-02-16,45704,Global,Vertex AI Search,Error rates for certain IPs,Configuration_Error,Data,181,Global,High,Yes,Yes,No,Yes,GCP
+GC-2025-02-18,45706,Global,Chronicle Security,Dashboards unavailable,Software_Defect,Control,239,Global,High,Yes,No,No,No,GCP
+GC-2025-02-19,45707,Global,Cloud Asset Inventory,Queries may not return results,Software_Defect,Control,1363,Global,Medium,Yes,No,No,No,GCP
+GC-2025-03-04,45720,Global,Apigee,Login UI issue,Software_Defect,Control,96,Global,Medium,Yes,No,No,No,GCP
+GC-2025-03-29,45745,us-east5-c,Multiple GCP products,Connectivity issues,Power_Infrastructure_Failure,Data,382,Regional,High,Yes,No,Yes,No,GCP
+GC-2025-05-19,45796,Multi-region,Google Compute Engine,Service outage impacting dependents,Software_Defect,Data,522,Multi-region,Critical,Yes,Yes,Yes,Partial,GCP
+GC-2025-06-12,45820,Global,Multiple GCP products,Service issues from quota update,Deployment_Process_Gap,Control,174,Global,High,Yes,Yes,Yes,No,GCP
+GC-2025-07-18,45856,us-east1,Multiple GCP products,Elevated error rates,Software_Defect,Data,118,Regional,High,Yes,Yes,Yes,No,GCP
+GC-2026-01-05,46027,Global,Multiple GCP products,Network propagation delay,Internal_Network_Configuration_Error,Data,240,Global,High,Yes,No,Yes,Yes,GCP
+CF-2022-06-21,44733,Global,"CDN, DNS, WAF",HTTP 502 errors across edge network,Software_Defect,Data,30,Global,High,Yes,Yes,Yes,No,Cloudflare
+CF-2023-01-24,44950,Global,"Workers, Zero Trust",Service token validation failures,Deployment_Process_Gap,Control,121,Global,High,Yes,No,Yes,Partial,Cloudflare
+CF-2023-10-30,45229,Global,Workers KV,KV namespace unavailability,Configuration_Error,Control,37,Global,Medium,Yes,No,No,No,Cloudflare
+CF-2023-11-02,45232,Global,"Dashboard, API",Datacenter power loss affecting control plane,Power_Infrastructure_Failure,Control,47,Global,High,Yes,No,No,Partial,Cloudflare
+CF-2024-06-20a,45463,Americas,"CDN, Load Balancing",Elevated latency from backbone congestion,Internal_Network_Configuration_Error,Data,84,Regional,Medium,Yes,No,No,Yes,Cloudflare
+CF-2024-06-20b,45463,APAC,DDoS Protection,Mitigation system overload during attack,Capacity_Saturation,Data,62,Regional,High,Yes,Yes,Yes,Partial,Cloudflare
+CF-2024-06-27,45470,Global,1.1.1.1 DNS,BGP route leak affecting resolver reachability,BGP_Routing_Error,Data,62,Global,High,Yes,No,Yes,No,Cloudflare
+CF-2024-09-16,45551,Global,"CDN, Magic Transit",Packet loss from backbone misconfiguration,Internal_Network_Configuration_Error,Data,41,Global,High,Yes,Yes,Yes,Partial,Cloudflare
+CF-2024-09-17,45552,EMEA,CDN,BGP prefix withdrawal during maintenance,BGP_Routing_Error,Data,28,Regional,Medium,Yes,No,No,Yes,Cloudflare
+CF-2024-11-14,45610,Global,"Logs, Analytics",Log ingestion pipeline failure,Software_Defect,Control,195,Global,Medium,Yes,No,No,No,Cloudflare
+CF-2025-03-21,45737,Global,"Storage (R2), Workers",Write failures during key rotation,Deployment_Process_Gap,Data,67,Global,Critical,Yes,Yes,Yes,No,Cloudflare
+CF-2025-05-07,45784,Global,Workers Runtime,Cold start failures across edge,Software_Defect,Data,44,Global,High,Yes,Yes,No,Partial,Cloudflare
+CF-2025-06-12,45820,Global,"Workers KV, Access, WARP",GCP dependency failure cascading to edge,Third_Party_Dependency_Failure,Control,148,Global,Critical,Yes,Yes,Yes,No,Cloudflare
+CF-2025-07-14,45852,Global,1.1.1.1 DNS,Service topology change causing resolver outage,Configuration_Error,Data,62,Global,High,Yes,No,Yes,Partial,Cloudflare
+CF-2025-08-21,45890,Americas,CDN Interconnect,AWS us-east-1 link saturation from customer traffic,Capacity_Saturation,Data,33,Regional,Medium,Yes,Yes,No,Yes,Cloudflare
+CF-2025-09-12,45912,Global,"Dashboard, API",Control plane database overload,Capacity_Saturation,Control,60,Global,Medium,Yes,No,No,Partial,Cloudflare
+CF-2025-11-18,45979,Global,"CDN, DNS, WAF, Workers",Oversized Bot Management feature file,Software_Defect,Data,178,Global,Critical,Yes,Yes,Yes,No,Cloudflare
+CF-2025-12-05,45996,Global,"CDN, DNS",Edge configuration propagation failure,Deployment_Process_Gap,Data,112,Global,Critical,Yes,Yes,Yes,Partial,Cloudflare
+CF-2026-01-05,46027,APAC,DDoS Protection,Record 31.4 Tbps attack absorption,External_Attack,Data,18,Regional,High,No,Yes,No,Yes,Cloudflare
+CF-2026-01-22,46044,Global,BGP Routing,Automated policy error causing IPv6 route leak,Configuration_Error,Data,24,Global,Medium,Yes,No,Yes,Yes,Cloudflare
+CF-2025-02-14,45702,EMEA,Magic Transit,BGP session flapping with Tier-1 providers,BGP_Routing_Error,Data,53,Regional,High,Yes,Yes,Yes,Partial,Cloudflare
+CF-2024-03-08,45359,Global,Turnstile,CAPTCHA validation failures,Software_Defect,Control,29,Global,Medium,Yes,No,No,Yes,Cloudflare
+CF-2023-07-09,45116,APAC,DNS Resolver,Origin DNS resolution failures for .com/.net,Third_Party_Dependency_Failure,Data,47,Regional,Medium,Yes,No,Yes,Yes,Cloudflare
+CF-2025-04-17,45764,Americas,Stream,Live ingestion pipeline failure,Software_Defect,Data,88,Regional,High,Yes,No,No,Partial,Cloudflare
+CF-2024-12-10,45636,Global,Pages,Build system outage during deployment,Capacity_Saturation,Control,76,Global,Medium,Yes,No,No,Yes,Cloudflare
