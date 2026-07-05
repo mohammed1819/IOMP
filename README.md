@@ -97,9 +97,9 @@ Published in the **International Journal of Innovative Science and Research Tech
 
 Volume 11 | Issue 5 | May 2026
 
-📄 Research Paper: (paste paper link)
+📄 Research Paper: ![Research Paper](./research_paper.docx)
 
-🏆 Author Certificate: (paste certificate image or PDF)
+🏆 Author Certificate: ![Publication Certificate](./research_certificate.jpeg)
 
 
 ## Note
