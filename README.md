@@ -49,7 +49,7 @@ The work involved:
 
 The normalized multi-cloud outage dataset used in this project is included in this repository.
 
-📄 **Dataset:** [multi_cloud_incident_dataset.xlsx](./multi_cloud_incident_dataset.xlsx)
+📄 **Dataset:** [multi_cloud_incident_dataset.xlsx](./multi_cloud_incident_dataset.csv)
 
 The dataset contains standardized outage incidents collected from publicly available postmortems published by AWS, Microsoft Azure, Google Cloud Platform (GCP), and Cloudflare.
 
