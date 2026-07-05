@@ -82,7 +82,7 @@ This normalization enables direct comparison of cloud providers despite differen
 
 ## Dashboard
 
-(Add dashboard image here)
+![Project Screenshot](./dashboard.png)
 
 ---
 
