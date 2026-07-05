@@ -86,6 +86,22 @@ This normalization enables direct comparison of cloud providers despite differen
 
 ---
 
+
+## Publication
+
+This project formed the basis of our research paper:
+
+**"A COREM-Based Framework for Cross-Provider Cloud Outage Analysis and Resilience Evaluation"**
+
+Published in the **International Journal of Innovative Science and Research Technology (IJISRT)**
+
+Volume 11 | Issue 5 | May 2026
+
+📄 Research Paper: (paste paper link)
+
+🏆 Author Certificate: (paste certificate image or PDF)
+
+
 ## Note
 
 The implementation of the COREM analysis framework uses Python for data processing, scoring, and visualization. The primary research contribution of this project lies in the creation of the normalized multi-cloud incident dataset and the design of the evaluation framework.
